@@ -4,16 +4,38 @@ body {
 }
 
 
+section {
+  padding-top: 50px;
+}
+
+.jumbo article:first-of-type {
+  padding-top: 100px;
+}
+
 .bluebg {
   background: linear-gradient(30deg, #225393, #002351);
 }
 
+.jumbo img:first-of-type {
+  margin-bottom: 40px;
+}
+
+.plan, .pomodoro, .tracktime {
+  text-align: center;
+}
+
+.plan img {
+  width: 320px;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
 
 /* debug */
 [class*="col-"] {
-  background: blue;
-  border: 1px solid black;
-  height: 180px;
+  /* border: 1px solid black; */
 }
 
 [class*="-offset"] {
