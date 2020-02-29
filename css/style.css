@@ -1,0 +1,22 @@
+body {
+  font-family: "Clear Sans", sans-serif;
+  background: #f6f7f8;
+}
+
+
+.bluebg {
+  background: linear-gradient(30deg, #225393, #002351);
+}
+
+
+/* debug */
+[class*="col-"] {
+  background: blue;
+  border: 1px solid black;
+  height: 180px;
+}
+
+[class*="-offset"] {
+  border: 0;
+  height: 180px;
+}
