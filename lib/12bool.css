@@ -30,7 +30,7 @@
 
 
 
-/* desktop */
+/* smartphone */
 @media all and (max-width: 768px){
   .col-xs-1 {
       width: calc(( 100% / 12)*1);
